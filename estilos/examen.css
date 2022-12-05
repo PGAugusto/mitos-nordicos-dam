@@ -1,0 +1,64 @@
+/*******************************************************************/
+/*   css del examen de Norse Myths                                 */
+/*   Autora: Pilar González                                        */
+/*******************************************************************/
+
+@font-face {
+    font-family: fuente1;
+    src: url("../fuentes/BLKCHCRY.TTF");
+}
+
+@font-face {
+    font-family: fuente2;
+    src: url("../fuentes/RunyTunesRevisitedNF.ttf");
+}
+
+
+body {background-color:black; 
+      margin:0;padding:0;       /* quitar borde del navegador por defecto */
+}
+
+#wrapper { width:80%;
+           background-color:white; /* esto lo quito luego */
+           height: 50vh; /* esto lo quito luego */
+           margin:auto;
+        }
+
+
+/*********************************   ESTILO NAV **********************************/
+
+/*********************************   ESTILO HERO *********************************/
+
+#hero {background-image: url("../imagenes/norse-mithology-bg.jpg");
+       background-position: 70%;
+       background-repeat: no-repeat;
+       background-size: cover;
+       height:100vh;
+       position:relative;}
+
+#titulo {font-family: fuente2;
+         font-size:3rem;
+         position:absolute;
+         top:30px;
+         left:30px;}
+
+
+/*********************************  ESTILO INTRO *********************************/
+
+/*********************************  ESTILO GALLERY *******************************/
+
+/*********************************  ESTILO FOOTER ********************************/
+
+
+
+/********************************** MEDIA QUERIES ********************************/
+
+@media only screen and (width<900px) {
+   #wrapper {width:90%;}
+
+}
+
+@media only screen and (width<600px) {
+    #wrapper {width:100%;}
+    
+}
